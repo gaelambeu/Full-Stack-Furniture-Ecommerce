@@ -3,6 +3,9 @@ import { Container, Row } from "reactstrap"
 import { NavLink } from 'react-router-dom'
 
 import logo from "../../assets/images/eco-logo.png"
+import userIcon from '../../assets/images/user-icon.png'
+
+import './header.css'
 
 const Header = () => {
   return (
@@ -34,8 +37,22 @@ const Header = () => {
                     </div>
 
                     <div className="nav__icons">
+                        <span className="fav__icon">
+                            <i class="ri-heart-line"></i>
+                        </span>
+
                         <span className="cart__icon">
                             <i class="ri-shopping-bag-line"></i>
+                        </span>
+
+                        <span>
+                            <img src={userIcon} alt="" />
+                        </span>
+                    </div>
+
+                    <div className="mobile__menu">
+                        <span>
+                            <i class="ri-menu-line"></i>
                         </span>
                     </div>
                </div>
