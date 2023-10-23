@@ -23,7 +23,20 @@ const Header = () => {
                             <li className="nav__item">
                                 <NavLink to='home'>Home</NavLink>
                             </li>
+                            <li className="nav__item">
+                                <NavLink to='home'>Shop</NavLink>
+                            </li>
+                            <li className="nav__item">
+                                <NavLink to='home'>Cart</NavLink>
+                            </li>
+
                         </ul>
+                    </div>
+
+                    <div className="nav__icons">
+                        <span className="cart__icon">
+                            <i class="ri-shopping-bag-line"></i>
+                        </span>
                     </div>
                </div>
             </Row>
