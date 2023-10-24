@@ -31,11 +31,18 @@
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
+    list-style: none;
 }
 
 .nav__item a {
     color: var(--primary-color);
     font-weight: 500; 
     text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
+}
+
+nav__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
 }
