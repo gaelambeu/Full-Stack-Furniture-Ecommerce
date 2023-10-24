@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Row } from "reactstrap"
 import { NavLink } from 'react-router-dom'
 
+import { motion } from 'framer-motion';
+
 import logo from "../../assets/images/eco-logo.png"
 import userIcon from '../../assets/images/user-icon.png'
 
@@ -63,7 +65,7 @@ const Header = () => {
                         </span>
 
                         <span>
-                            <img src={userIcon} alt="" />
+                            <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" />
                         </span>
                     </div>
 
