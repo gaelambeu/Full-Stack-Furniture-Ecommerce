@@ -49,7 +49,7 @@
 }
 
 .nav__icons span i {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -62,10 +62,10 @@
 
 .fav__icon .badge {
     position: absolute;
-    top: 50%;
-    right: 0%;
-    width: 15px;
-    height: 15px;
+    top: 22%;
+    right: -5%;
+    width: 13px;
+    height: 13px;
     content: '';
     background-color: #000;
     color: #fff;
@@ -73,17 +73,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 600;
     z-index: 10;
 }
 
 .cart__icon .badge {
     position: absolute;
-    top: 50%;
-    right: 0%;
-    width: 15px;
-    height: 15px;
+    top: 22%;
+    right: -5%;
+    width: 13px;
+    height: 13px;
     content: '';
     background-color: #000;
     color: #fff;
@@ -91,7 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 600;
     z-index: 10;
 }
