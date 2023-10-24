@@ -62,8 +62,8 @@
 
 .fav__icon .badge {
     position: absolute;
-    top: 22%;
-    right: -5%;
+    top: 25%;
+    right: -8%;
     width: 13px;
     height: 13px;
     content: '';
@@ -80,8 +80,8 @@
 
 .cart__icon .badge {
     position: absolute;
-    top: 22%;
-    right: -5%;
+    top: 25%;
+    right: -8%;
     width: 13px;
     height: 13px;
     content: '';
