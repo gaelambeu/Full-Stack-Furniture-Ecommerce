@@ -54,6 +54,48 @@
     cursor: pointer;
 }
 
+.cart__icon, 
+.fav__icon {
+    position: relative;
+}
+
+
+.fav__icon .badge {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 15px;
+    height: 15px;
+    content: '';
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.cart__icon .badge {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 15px;
+    height: 15px;
+    content: '';
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
 .nav__icons span img {
     width: 30px;
     height: 30px; 
